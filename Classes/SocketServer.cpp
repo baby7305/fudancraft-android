@@ -222,16 +222,20 @@ SocketServer::SocketServer(int port):
 
 void SocketServer::loop_process()
 {
+	//cocos2d::log("SocketServer: Entering loop process");
 	while (true)
 	{
 		if (connections_.size() != connection_num_)
 		{
+			//cocos2d::log("SocketServer: Connection error, %d != %d", connections_.size(), connection_num_);
 			error_flag_ = true;
 			break;
 		}
 //			throw std::exception{"lost connection"};
-		std::unique_lock<std::mutex> lock(delete_mutex_);
+		//cocos2d::log("SocketServer: Initialize process loop");
+		std::unique_lock<std::mutex> lock{delete_mutex_};
 		std::vector<std::string> ret;
+		//cocos2d::log("SocketServer: Trying to read data");
 		for (auto r : connections_)
 		{
 			if (r->error())
@@ -240,9 +244,15 @@ void SocketServer::loop_process()
 			ret.push_back(r->read_data());
 		}
 		auto game_msg = GameMessageWrap::combine_message(ret);
+		//cocos2d::log("SocketServer: Reading data completed, num = %d", ret.size());
 
 		for (auto r : connections_)
 			r->write_data(game_msg);
+		//cocos2d::log("SocketServer: Distributing data completed");
+		//cocos2d::log("SocketServer: Mutex to be released: %u", &delete_mutex_);
+		//cocos2d::log("SocketServer: Lock to be released: %u", &lock);
+		//cocos2d::log("SocketServer: Vector to be released: %u", &ret);
+		//cocos2d::log("SocketServer: Msg to be released: %u", &game_msg);
 	}
 }
 

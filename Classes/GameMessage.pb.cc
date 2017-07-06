@@ -5,7 +5,7 @@
 #include "GameMessage.pb.h"
 
 //Modified by zlj_09, Jul. 2, 2017
-#include "cocos2d.h" //In order to use log() to debug
+//#include "cocos2d.h" //In order to use log() to debug
 
 #include <algorithm>
 
@@ -1278,7 +1278,7 @@ void GameMessageSet::InternalSwap(GameMessageSet* other) {
 
 // repeated .GameMessage game_message = 1;
 int GameMessageSet::game_message_size() const {
-	cocos2d::log("GameMessageSet: Trying to Return GameMessageSet Size");
+	//cocos2d::log("GameMessageSet: Trying to Return GameMessageSet Size");
   return game_message_.size();
 }
 void GameMessageSet::clear_game_message() {

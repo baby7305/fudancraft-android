@@ -39,11 +39,14 @@ public:
 	{
 		start_connect();
 	};
-	[[deprecated("just for test")]]
-	std::vector<GameMessage> get_game_messages();
+	
+	//Modified by zlj_09, Jul. 3, 2017
+	//Remove attribute that is not supported by gcc
+	//[[deprecated("just for test")]]
+	//std::vector<GameMessage> get_game_messages();
 
-	[[deprecated("just for test")]]
-	void send_game_message(const std::vector<GameMessage>& vec_game_msg);
+	//[[deprecated("just for test")]]
+	//void send_game_message(const std::vector<GameMessage>& vec_game_msg);
 
 	
 	/**

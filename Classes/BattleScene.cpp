@@ -299,8 +299,8 @@ void BattleScene::destroyReward(int destroyed_type)
 void BattleScene::initPlayerID()
 {
 	log("BattleScene: Trying to Init Player ID");
-	//player_id = socket_client->camp();
-	player_id = 1;
+	player_id = socket_client->camp();
+	//player_id = 1;
 	log("BattleScene: Get Player ID: %d", player_id);
 }
 

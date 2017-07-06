@@ -1,0 +1,309 @@
+07-03 22:46:49.636 8330-8330/? I/art: Late-enabling -Xcheck:jni
+07-03 22:46:49.661 8330-8330/? D/TidaProvider: TidaProvider()
+07-03 22:46:49.668 8330-8330/? V/BoostFramework: mAcquireFunc method = public int com.qualcomm.qti.Performance.perfLockAcquire(int,int[])
+07-03 22:46:49.668 8330-8330/? V/BoostFramework: mReleaseFunc method = public int com.qualcomm.qti.Performance.perfLockRelease()
+07-03 22:46:49.668 8330-8330/? V/BoostFramework: mAcquireTouchFunc method = public int com.qualcomm.qti.Performance.perfLockAcquireTouch(android.view.MotionEvent,android.util.DisplayMetrics,int,int[])
+07-03 22:46:49.668 8330-8330/? V/BoostFramework: mIOPStart method = public int com.qualcomm.qti.Performance.perfIOPrefetchStart(int,java.lang.String)
+07-03 22:46:49.668 8330-8330/? V/BoostFramework: mIOPStop method = public int com.qualcomm.qti.Performance.perfIOPrefetchStop()
+07-03 22:46:49.671 8330-8330/? V/BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@249ac42
+07-03 22:46:49.751 8330-8330/com.FDU308.FudanCraft W/ActivityThread: Application com.FDU308.FudanCraft is waiting for the debugger on port 8100...
+07-03 22:46:49.767 8330-8330/com.FDU308.FudanCraft I/System.out: Sending WAIT chunk
+07-03 22:47:09.530 8330-8338/com.FDU308.FudanCraft I/art: Debugger is active
+07-03 22:47:09.681 8330-8330/com.FDU308.FudanCraft I/System.out: Debugger has connected
+07-03 22:47:09.681 8330-8330/com.FDU308.FudanCraft I/System.out: waiting for debugger to settle...
+07-03 22:47:09.882 8330-8330/com.FDU308.FudanCraft I/System.out: waiting for debugger to settle...
+07-03 22:47:10.083 8330-8330/com.FDU308.FudanCraft I/System.out: waiting for debugger to settle...
+07-03 22:47:10.284 8330-8330/com.FDU308.FudanCraft I/System.out: waiting for debugger to settle...
+07-03 22:47:10.484 8330-8330/com.FDU308.FudanCraft I/System.out: waiting for debugger to settle...
+07-03 22:47:10.685 8330-8330/com.FDU308.FudanCraft I/System.out: waiting for debugger to settle...
+07-03 22:47:10.886 8330-8330/com.FDU308.FudanCraft I/System.out: waiting for debugger to settle...
+07-03 22:47:11.087 8330-8330/com.FDU308.FudanCraft I/System.out: waiting for debugger to settle...
+07-03 22:47:11.288 8330-8330/com.FDU308.FudanCraft I/System.out: waiting for debugger to settle...
+07-03 22:47:11.489 8330-8330/com.FDU308.FudanCraft I/System.out: debugger has settled (1455)
+07-03 22:47:29.879 8330-8330/com.FDU308.FudanCraft D/JniHelper: JniHelper::setJavaVM(0xf53fc000), pthread_self() = -144299212
+07-03 22:47:29.879 8330-8330/com.FDU308.FudanCraft D/main: cocos_android_app_init
+07-03 22:47:29.883 8330-8330/com.FDU308.FudanCraft D/Cocos2dxHelper: isSupportLowLatency:false
+07-03 22:47:29.889 8330-8330/com.FDU308.FudanCraft D/Cocos2dxHelper: sampleRate: 48000, framesPerBuffer: 192
+07-03 22:47:29.889 8330-8330/com.FDU308.FudanCraft D/Java_org_cocos2dx_lib_Cocos2dxHelper.cpp: nativeSetAudioDeviceInfo: sampleRate: 48000, bufferSizeInFrames: 192
+07-03 22:47:31.189 8330-8330/com.FDU308.FudanCraft D/Cocos2dxActivity: model=MI 5s Plus
+07-03 22:47:31.189 8330-8330/com.FDU308.FudanCraft D/Cocos2dxActivity: product=natrium
+07-03 22:47:31.189 8330-8330/com.FDU308.FudanCraft D/Cocos2dxActivity: isEmulator=false
+07-03 22:47:31.201 8330-8330/com.FDU308.FudanCraft D/EngineDataManager.cpp: nativeSetSupportOptimization: 0
+07-03 22:47:31.203 8330-8330/com.FDU308.FudanCraft D/Cocos2dxActivity: onResume()
+07-03 22:47:31.218 8330-8330/com.FDU308.FudanCraft D/ActivityThreadInjector: clearCachedDrawables.
+07-03 22:47:31.272 8330-9156/com.FDU308.FudanCraft I/Adreno: QUALCOMM build                   : 9438ceb, I0ac3940325
+                                                             Build Date                       : 10/26/16
+                                                             OpenGL ES Shader Compiler Version: XE031.09.00.03
+                                                             Local Branch                     : 
+                                                             Remote Branch                    : 
+                                                             Remote Branch                    : 
+                                                             Reconstruct Branch               : 
+07-03 22:47:31.311 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: {
+                                                                           	gl.supports_OES_packed_depth_stencil: true
+                                                                           	gl.supports_vertex_array_object: true
+                                                                           	gl.supports_BGRA8888: false
+                                                                           	gl.supports_ATITC: true
+                                                                           	gl.supports_S3TC: false
+                                                                           	cocos2d.x.version: cocos2d-x-3.15.1
+                                                                           	gl.supports_discard_framebuffer: true
+                                                                           	cocos2d.x.compiled_with_profiler: false
+                                                                           	gl.supports_PVRTC: false
+                                                                           	cocos2d.x.build_type: DEBUG
+                                                                           	gl.renderer: Adreno (TM) 530
+                                                                           	gl.supports_OES_depth24: true
+                                                                           	gl.supports_ETC1: true
+                                                                           	gl.supports_OES_map_buffer: false
+                                                                           	cocos2d.x.compiled_with_gl_state_cache: true
+                                                                           	gl.version: OpenGL ES 3.2 V@145.0 (GIT@I0ac3940325)
+                                                                           	gl.supports_NPOT: true
+                                                                           	gl.max_texture_units: 96
+                                                                           	gl.vendor: Qualcomm
+                                                                           	gl.max_texture_size: 16384
+                                                                           }
+07-03 22:47:31.321 8330-9156/com.FDU308.FudanCraft D/EngineDataManager.cpp: setAnimationInterval by game: 0.0167
+07-03 22:47:31.322 8330-9156/com.FDU308.FudanCraft D/EngineDataManager.cpp: JNI setAnimationInterval: 0.016667
+07-03 22:47:31.333 8330-8330/com.FDU308.FudanCraft D/Cocos2dxActivity: onWindowFocusChanged() hasFocus=true
+07-03 22:47:31.733 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: create rendererRecreatedListener for GLProgramState
+07-03 22:47:31.733 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Initialize Begin
+07-03 22:47:31.734 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: fullPathForFilename: No file found at BackgroundPanel.png. Possible missing file.
+07-03 22:47:31.734 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Read First Resource at Root Directory Fail
+07-03 22:47:31.773 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: create rendererRecreatedListener for GLProgramState
+07-03 22:47:31.773 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Read First Resource Success
+07-03 22:47:31.773 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Set Position Success
+07-03 22:47:31.773 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Set Scale Success
+07-03 22:47:31.773 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Trying to Add Child
+07-03 22:47:31.773 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Add First Child Success
+07-03 22:47:31.778 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Create First Sprite Success
+07-03 22:47:31.787 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Read Many Resources Success
+07-03 22:47:31.787 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Trying to Preload Audio
+07-03 22:47:31.787 8330-9156/com.FDU308.FudanCraft D/cocos2d: android SDK version:23
+07-03 22:47:31.788 8330-9156/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-03 22:47:31.788 8330-9156/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-03 22:47:31.788 8330-9156/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-03 22:47:31.788 8330-9156/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-03 22:47:31.811 8330-8330/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-03 22:47:31.811 8330-9156/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-03 22:47:31.817 8330-9156/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-03 22:47:31.817 8330-9156/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-03 22:47:31.817 8330-9156/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-03 22:47:31.817 8330-9156/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-03 22:47:31.858 8330-9156/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-03 22:47:31.858 8330-8330/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-03 22:47:31.862 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Initialize Success
+07-03 22:47:31.862 8330-9156/com.FDU308.FudanCraft D/EngineDataManager.cpp: setAnimationInterval by engine: 0.0167
+07-03 22:47:31.862 8330-9156/com.FDU308.FudanCraft D/EngineDataManager.cpp: JNI setAnimationInterval: 0.016667
+07-03 22:47:31.863 8330-9155/com.FDU308.FudanCraft E/WVMExtractor: Failed to open libwvm.so: dlopen failed: library "libwvm.so" not found
+07-03 22:47:33.878 8330-9155/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-03 22:47:33.893 8330-9155/com.FDU308.FudanCraft W/linker: /system/lib/libffmpeg_avcodec.so: is missing DT_SONAME will use basename as a replacement: "libffmpeg_avcodec.so"
+07-03 22:47:36.190 8330-9155/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef18e380
+07-03 22:47:36.191 8330-8338/com.FDU308.FudanCraft W/art: Suspending all threads took: 3.659s
+07-03 22:47:36.205 8330-9155/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-03 22:47:36.206 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-03 22:47:36.206 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef18e3c0
+07-03 22:47:36.206 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef18e3c0
+07-03 22:47:36.206 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-03 22:47:36.206 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-03 22:47:36.206 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-03 22:47:36.206 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-03 22:47:36.206 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-03 22:47:36.206 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-03 22:47:36.212 8330-9240/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-03 22:47:36.511 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: QuadCommand: resizing index size from [-1] to [2560]
+07-03 22:47:38.277 8330-8338/com.FDU308.FudanCraft W/art: Suspending all threads took: 391.716ms
+07-03 22:47:38.282 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-03 22:47:38.282 8330-9155/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-03 22:47:40.006 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: Data is not sufficient to validate AAC
+07-03 22:47:40.006 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: ValidateAACFile data not sufficient
+07-03 22:47:40.006 8330-9155/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-03 22:47:40.006 8330-9155/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef18e380
+07-03 22:47:40.010 8330-9155/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-03 22:47:40.010 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-03 22:47:40.010 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef18e3c0
+07-03 22:47:40.010 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef18e3c0
+07-03 22:47:40.010 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-03 22:47:40.010 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-03 22:47:40.010 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-03 22:47:40.010 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-03 22:47:40.010 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-03 22:47:40.010 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-03 22:47:40.013 8330-9343/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-03 22:47:40.654 8330-8330/com.FDU308.FudanCraft V/BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@50d7643
+07-03 22:47:41.375 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-03 22:47:41.375 8330-9155/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-03 22:47:43.018 8330-9155/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-03 22:47:43.018 8330-9155/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef18e380
+07-03 22:47:43.032 8330-9155/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-03 22:47:43.032 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-03 22:47:43.032 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef18e3c0
+07-03 22:47:43.032 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef18e3c0
+07-03 22:47:43.032 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-03 22:47:43.032 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-03 22:47:43.032 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-03 22:47:43.032 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-03 22:47:43.032 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-03 22:47:43.033 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-03 22:47:43.037 8330-9396/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-03 22:47:44.927 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-03 22:47:44.928 8330-9155/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-03 22:47:46.976 8330-9155/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-03 22:47:46.977 8330-9155/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef18e380
+07-03 22:47:46.984 8330-9155/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-03 22:47:46.985 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-03 22:47:46.985 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef18e3c0
+07-03 22:47:46.985 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef18e3c0
+07-03 22:47:46.985 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-03 22:47:46.985 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-03 22:47:46.985 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-03 22:47:46.985 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-03 22:47:46.985 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-03 22:47:46.985 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-03 22:47:46.988 8330-9461/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-03 22:47:48.861 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-03 22:47:48.861 8330-9155/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-03 22:47:50.994 8330-9155/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-03 22:47:50.995 8330-9155/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef18e380
+07-03 22:47:51.017 8330-9155/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-03 22:47:51.017 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-03 22:47:51.017 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef18e3c0
+07-03 22:47:51.017 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef18e3c0
+07-03 22:47:51.017 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-03 22:47:51.017 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-03 22:47:51.017 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-03 22:47:51.018 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-03 22:47:51.018 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-03 22:47:51.018 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-03 22:47:51.020 8330-9525/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-03 22:47:53.002 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-03 22:47:53.002 8330-9155/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-03 22:47:55.160 8330-9155/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-03 22:47:55.160 8330-9155/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef18e380
+07-03 22:47:55.175 8330-9155/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-03 22:47:55.175 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-03 22:47:55.175 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef18e3c0
+07-03 22:47:55.176 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef18e3c0
+07-03 22:47:55.176 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-03 22:47:55.177 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-03 22:47:55.177 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-03 22:47:55.177 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-03 22:47:55.177 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-03 22:47:55.177 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-03 22:47:55.182 8330-9592/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-03 22:47:57.276 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-03 22:47:57.277 8330-9155/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-03 22:47:59.251 8330-9155/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-03 22:47:59.251 8330-9155/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef18e380
+07-03 22:47:59.255 8330-9155/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-03 22:47:59.255 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-03 22:47:59.255 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef18e3c0
+07-03 22:47:59.256 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef18e3c0
+07-03 22:47:59.256 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-03 22:47:59.256 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-03 22:47:59.256 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-03 22:47:59.256 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-03 22:47:59.256 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-03 22:47:59.256 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-03 22:47:59.259 8330-9652/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-03 22:48:00.711 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-03 22:48:00.711 8330-9155/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-03 22:48:02.671 8330-9155/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-03 22:48:02.673 8330-9155/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef18e380
+07-03 22:48:02.683 8330-9155/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-03 22:48:02.683 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-03 22:48:02.683 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef18e3c0
+07-03 22:48:02.683 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef18e3c0
+07-03 22:48:02.683 8330-9155/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-03 22:48:02.684 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-03 22:48:02.684 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-03 22:48:02.684 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-03 22:48:02.684 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-03 22:48:02.684 8330-9155/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-03 22:48:02.687 8330-9705/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-03 22:48:03.610 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: server button pressed
+07-03 22:48:03.610 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Trying to Load InputPort.png
+                                                                           
+                                                                           
+                                                                           [ 07-03 22:48:03.809  8330: 9156 E/         ]
+                                                                           scaleX = 0.940767
+07-03 22:48:04.008 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: fullPathForFilename: No file found at sans-serif. Possible missing file.
+07-03 22:48:04.010 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: Warning! You can't change Android Hint fontName and fontSize
+07-03 22:48:04.010 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: [Edit text] content size = (80.000000, 60.000000)
+07-03 22:48:04.011 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: [Edit text] content size = (80.000000, 60.000000)
+07-03 22:48:04.011 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Successfully Load InputPort.png
+07-03 22:48:04.018 8330-9155/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-03 22:48:04.018 8330-9155/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-03 22:48:04.369 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: create rendererRecreatedListener for GLProgramState
+07-03 22:48:04.729 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: [Edit text] content size = (80.000000, 60.000000)
+07-03 22:48:27.297 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Trying to Start Server
+07-03 22:48:27.299 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: SocketServer Created!
+07-03 22:48:27.301 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: SocketClient Created!
+07-03 22:48:27.301 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: create server and client on 8008
+07-03 22:48:27.420 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: create rendererRecreatedListener for GLProgramState
+07-03 22:48:29.120 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Entering loop process
+07-03 22:48:29.120 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Initialize process loop
+07-03 22:48:29.120 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Trying to read data
+07-03 22:48:29.514 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [5735] to [7648].
+07-03 22:48:29.528 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [7648] to [10198].
+07-03 22:48:29.547 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [10198] to [13598].
+07-03 22:48:29.692 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [5735] to [7648].
+07-03 22:48:29.760 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [5735] to [7648].
+07-03 22:48:29.775 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [7648] to [10198].
+07-03 22:48:29.794 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [10198] to [13598].
+07-03 22:48:29.820 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [13598] to [18132].
+07-03 22:48:29.857 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: create rendererRecreatedListener for GLProgramState
+07-03 22:48:29.857 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Trying to Init Player ID
+07-03 22:48:29.858 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Get Player ID: 1
+07-03 22:48:29.889 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: fullPathForFilename: No file found at Marker Felt. Possible missing file.
+07-03 22:48:29.893 8330-9156/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-03 22:48:29.893 8330-9156/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-03 22:48:29.893 8330-9156/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-03 22:48:29.893 8330-9156/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-03 22:48:29.916 8330-9156/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-03 22:48:29.916 8330-8330/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-03 22:48:29.932 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: if back ground music playing 1
+07-03 22:48:29.938 8330-9156/com.FDU308.FudanCraft W/AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by client; transfer 4, track 22050 Hz, output 48000 Hz
+07-03 22:48:29.960 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: start game
+07-03 22:48:30.083 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: UnitManager: Call Protobuf Success
+07-03 22:48:30.084 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: Start to send string, length = 144
+07-03 22:48:30.084 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: Start to write data, length = 144
+07-03 22:48:30.084 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: Complete in encoding data
+07-03 22:48:30.084 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Reading data completed, num = 1
+07-03 22:48:30.084 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Distributing data completed
+07-03 22:48:30.084 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Mutex to be released: 3928557396
+07-03 22:48:30.084 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Lock to be released: 3654846528
+07-03 22:48:30.084 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Vector to be released: 3654846544
+07-03 22:48:30.084 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Msg to be released: 3654846504
+07-03 22:48:30.084 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Initialize process loop
+07-03 22:48:30.085 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Trying to read data
+07-03 22:48:30.084 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: Finish writing data, length = 144
+07-03 22:48:30.085 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: Finished in sending string, length = 144
+07-03 22:48:30.085 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: UnitManager: Send Message via SocketClient Success
+07-03 22:48:30.085 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: Start to read data
+07-03 22:48:30.085 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: No error detected
+07-03 22:48:30.085 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: Get data success
+07-03 22:48:30.085 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: Unlock resource completed
+07-03 22:48:30.085 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: Finished in reading data, length = 144
+07-03 22:48:30.085 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: UnitManager: Receive Message via SocketClient Success
+07-03 22:48:30.085 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: UnitManager: Read Message 0 Success
+07-03 22:48:30.091 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: UnitManager: Read Message 1 Success
+07-03 22:48:30.093 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: UnitManager: Read Message 2 Success
+07-03 22:48:30.095 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: UnitManager: Read Message 3 Success
+07-03 22:48:30.100 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: UnitManager: Read Message 4 Success
+07-03 22:48:30.102 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: UnitManager: Read Message 5 Success
+07-03 22:48:30.105 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: UnitManager: Read Message 6 Success
+07-03 22:48:30.109 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: UnitManager: Read Message 7 Success
+07-03 22:48:30.110 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-03 22:48:30.180 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: UnitManager: Call Protobuf Success
+07-03 22:48:30.180 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: Start to send string, length = 0
+07-03 22:48:30.180 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: Start to write data, length = 0
+07-03 22:48:30.180 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: Complete in encoding data
+07-03 22:48:30.180 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: Finish writing data, length = 0
+07-03 22:48:30.180 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Reading data completed, num = 1
+07-03 22:48:30.181 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Distributing data completed
+07-03 22:48:30.181 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Mutex to be released: 3928557396
+07-03 22:48:30.181 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Lock to be released: 3654846528
+07-03 22:48:30.181 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Vector to be released: 3654846544
+07-03 22:48:30.181 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Msg to be released: 3654846504
+07-03 22:48:30.181 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Initialize process loop
+07-03 22:48:30.181 8330-10093/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketServer: Trying to read data
+07-03 22:48:30.182 8330-9156/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: Finished in sending string, length = 0
+07-03 22:48:30.182 8330-9156/com.FDU308.FudanCraft A/libc: Invalid address 0xf3e7e7f8 passed to free: value not allocated

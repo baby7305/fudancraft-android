@@ -1,6 +1,7 @@
 #pragma once
 #define ASIO_STANDALONE
-#define ASIO_HAS_STD_CHRONO
+//Modified by zlj_09, Jul. 3, 2017
+//#define ASIO_HAS_STD_CHRONO //Avoid redefining
 #include "asio.hpp"
 #include <thread>
 #include <iostream>

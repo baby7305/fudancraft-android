@@ -2,6 +2,9 @@
 #include "SocketClient.h"
 #include <iostream>
 
+//Modified by zlj_09, Jul. 3, 2017
+//#include "cocos2d.h"	//In order to use log() for debug
+
 
 SocketClient* SocketClient::create(std::string ip, int port)
 {
@@ -10,10 +13,11 @@ SocketClient* SocketClient::create(std::string ip, int port)
 		std::bind(static_cast<std::size_t(asio::io_service::*)()>(&asio::io_service::run),
 		          &s->io_service_));
 //	s->thread_->detach();
+	//cocos2d::log("SocketClient: create() new thread address = %u", &(s->thread_));
 	return s;
 }
 
-std::vector<GameMessage> SocketClient::get_game_messages()
+/*std::vector<GameMessage> SocketClient::get_game_messages()
 {
 	auto game_message_set_stirng = read_data();
 	return GameMessageWrap::set_string_to_vector(game_message_set_stirng);
@@ -23,13 +27,17 @@ void SocketClient::send_game_message(const std::vector<GameMessage>& vec_game_ms
 {
 	auto set_string = GameMessageWrap::vector_to_set_stirng(vec_game_msg);
 	write_data(set_string);
-}
+}*/
 
 void SocketClient::send_string(std::string s)
 {
+	//cocos2d::log("SocketClient: Start to send string, length = %d", s.size());
 	if (error_flag_)
 		return;
 	write_data(s);
+	//cocos2d::log("SocketClient: Finished in sending string, length = %d", s.size());
+	//cocos2d::log("SocketClient: send_string() trying to release string: %u", &s);
+	//cocos2d::log("SocketClient: Client address: %u", this);
 }
 
 std::string SocketClient::get_string()
@@ -77,6 +85,7 @@ int SocketClient::total() const
 
 void SocketClient::write_data(std::string s)
 {
+	//cocos2d::log("SocketClient: Start to write data, length = %d", s.size());
 	socket_message msg;
 	if (s.size() == 0)
 	{
@@ -87,8 +96,12 @@ void SocketClient::write_data(std::string s)
 		msg.body_length(s.size());
 	memcpy(msg.body(), &s[0u], msg.body_length());
 	msg.encode_header();
+	//cocos2d::log("SocketClient: Complete in encoding data");
 	asio::write(socket_,
 	            asio::buffer(msg.data(), msg.length()));
+	//cocos2d::log("SocketClient: Finish writing data, length = %d", s.size());
+	//cocos2d::log("SocketClient: write_data() trying to release string: %u", &s);
+	//cocos2d::log("SocketClient: write_data() trying to release socket_message: %u", &msg);
 }
 
 void SocketClient::start_connect()
@@ -102,6 +115,7 @@ void SocketClient::handle_connect(const asio::error_code& error)
 {
 	try
 	{
+		cocos2d::log("SocketClient: handle_connect() called");
 		if (!error)
 		{
 
@@ -114,8 +128,13 @@ void SocketClient::handle_connect(const asio::error_code& error)
 			char header[4 + 1] = "";
 			strncat(header, data + 10, 4);
 			total_ = atoi(header);
-			camp_ = atoi(data + 14);
+			//Modified by zlj_09, Jul. 6, 2017
+			//camp_ = atoi(data + 14);
+			camp_ = int(data[14] - '0') + 1;
 			start_flag_ = true;
+			
+			cocos2d::log("SocketClient: handle_connect() no exception, data:%s, header:%s, camp char:%c", data, header, data[14]);
+			
 			asio::async_read(socket_,
 				asio::buffer(read_msg_.data(), socket_message::header_length),
 				std::bind(&SocketClient::handle_read_header, this,
@@ -127,6 +146,7 @@ void SocketClient::handle_connect(const asio::error_code& error)
 			std::cerr << "failed to connect" << std::endl;
 //			throw asio::system_error(error);
 			error_flag_ = true;
+			cocos2d::log("SocketClient: handle_connect() error!");
 
 		}
 	}
@@ -135,6 +155,7 @@ void SocketClient::handle_connect(const asio::error_code& error)
 //		std::terminate();
 //		do_close();
 		std::cerr << "Exception in connection: " << e.what() << "\n";
+		cocos2d::log("SocketClient: handle_connect() exception!");
 	}
 }
 
@@ -175,15 +196,21 @@ void SocketClient::handle_read_body(const asio::error_code& error)
 
 std::string SocketClient::read_data()
 {
+	//cocos2d::log("SocketClient: Start to read data");
 	if (error_flag_)
 		return "";
+	//cocos2d::log("SocketClient: No error detected");
 	std::unique_lock<std::mutex> lk{mut};
 	while (read_msg_deque_.empty())
 		data_cond_.wait(lk);
+	//cocos2d::log("SocketClient: Get data success");
 	auto read_msg = read_msg_deque_.front();
 	read_msg_deque_.pop_front();
-	lk.unlock();
+	//lk.unlock();
+	//cocos2d::log("SocketClient: Unlock resource completed");
 	auto ret = std::string(read_msg.body(), read_msg.body_length());
+	//cocos2d::log("SocketClient: Finished in reading data, length = %d", ret.size());
+	//cocos2d::log("SocketClient: read_data() trying to release lock: %u", &lk);
 	return ret;
 }
 

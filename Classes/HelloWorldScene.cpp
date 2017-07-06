@@ -225,7 +225,7 @@ bool ServerMenu::init()
 	Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
 	log("FudanCraft: Trying to Load InputPort.png");
-	auto inputbox = ui::EditBox::create(Size(80, 60), ui::Scale9Sprite::create("Picture/MenuItems/InputPortDir/InputPort.png"));
+	auto inputbox = ui::EditBox::create(Size(80, 60), ui::Scale9Sprite::create("Picture/MenuItems/InputPort.png"));
 	if (inputbox)
 		log("FudanCraft: Successfully Load InputPort.png");
 	else
@@ -359,7 +359,7 @@ bool ClientMenu::init()
 	auto visibleSize = Director::getInstance()->getVisibleSize();
 	Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
-	auto ip_box = ui::EditBox::create(Size(150, 60), ui::Scale9Sprite::create("Picture/Menuitems/InputIPDir/InputIP.png"));
+	auto ip_box = ui::EditBox::create(Size(150, 60), ui::Scale9Sprite::create("Picture/MenuItems/InputIP.png"));
 	ip_box->setPosition(Vec2(origin.x + visibleSize.width / 2-ip_box->getContentSize().width/2,
 		origin.y + visibleSize.height - ip_box->getContentSize().height));
 	ip_box->setTextHorizontalAlignment(TextHAlignment::CENTER);
@@ -370,7 +370,7 @@ bool ClientMenu::init()
 	ip_box->setText("127.0.0.1");
 
 	ip_box->setTag(1);
-	auto port_box = ui::EditBox::create(Size(80, 60), ui::Scale9Sprite::create("picture/menuitems/InputPort.png"));
+	auto port_box = ui::EditBox::create(Size(80, 60), ui::Scale9Sprite::create("Picture/MenuItems/InputPort.png"));
 	port_box->setPosition(Vec2(origin.x + visibleSize.width / 2 + port_box->getContentSize().width,
 		origin.y + visibleSize.height - port_box->getContentSize().height));
 	port_box->setTextHorizontalAlignment(TextHAlignment::CENTER);

@@ -73,10 +73,8 @@ F:\Programs\Cpp\Android\FudanCraft\proj.android\assets\Picture\MenuItems\ButtonS
 F:\Programs\Cpp\Android\FudanCraft\proj.android\assets\Picture\MenuItems\ButtonStartSelected.png \
 F:\Programs\Cpp\Android\FudanCraft\proj.android\assets\Picture\MenuItems\ButtonStartServer.png \
 F:\Programs\Cpp\Android\FudanCraft\proj.android\assets\Picture\MenuItems\ButtonStartServerSelected.png \
-F:\Programs\Cpp\Android\FudanCraft\proj.android\assets\Picture\MenuItems\InputIPDir \
-F:\Programs\Cpp\Android\FudanCraft\proj.android\assets\Picture\MenuItems\InputPortDir \
-F:\Programs\Cpp\Android\FudanCraft\proj.android\assets\Picture\MenuItems\InputIPDir\InputIP.png \
-F:\Programs\Cpp\Android\FudanCraft\proj.android\assets\Picture\MenuItems\InputPortDir\InputPort.png \
+F:\Programs\Cpp\Android\FudanCraft\proj.android\assets\Picture\MenuItems\InputIP.png \
+F:\Programs\Cpp\Android\FudanCraft\proj.android\assets\Picture\MenuItems\InputPort.png \
 F:\Programs\Cpp\Android\FudanCraft\proj.android\assets\Picture\ui\gold.png \
 F:\Programs\Cpp\Android\FudanCraft\proj.android\assets\Picture\ui\money.jpg \
 F:\Programs\Cpp\Android\FudanCraft\proj.android\assets\Picture\units\airplane_0.png \

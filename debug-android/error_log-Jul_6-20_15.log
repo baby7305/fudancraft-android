@@ -1,0 +1,486 @@
+07-06 20:15:14.157 17292-17292/? I/art: Late-enabling -Xcheck:jni
+07-06 20:15:14.170 17292-17292/? D/TidaProvider: TidaProvider()
+07-06 20:15:14.187 17292-17292/? V/BoostFramework: mAcquireFunc method = public int com.qualcomm.qti.Performance.perfLockAcquire(int,int[])
+07-06 20:15:14.187 17292-17292/? V/BoostFramework: mReleaseFunc method = public int com.qualcomm.qti.Performance.perfLockRelease()
+07-06 20:15:14.187 17292-17292/? V/BoostFramework: mAcquireTouchFunc method = public int com.qualcomm.qti.Performance.perfLockAcquireTouch(android.view.MotionEvent,android.util.DisplayMetrics,int,int[])
+07-06 20:15:14.187 17292-17292/? V/BoostFramework: mIOPStart method = public int com.qualcomm.qti.Performance.perfIOPrefetchStart(int,java.lang.String)
+07-06 20:15:14.187 17292-17292/? V/BoostFramework: mIOPStop method = public int com.qualcomm.qti.Performance.perfIOPrefetchStop()
+07-06 20:15:14.189 17292-17292/? V/BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@8425d35
+07-06 20:15:14.310 17292-17292/com.FDU308.FudanCraft D/JniHelper: JniHelper::setJavaVM(0xf527c000), pthread_self() = -145978572
+07-06 20:15:14.310 17292-17292/com.FDU308.FudanCraft D/main: cocos_android_app_init
+07-06 20:15:14.311 17292-17292/com.FDU308.FudanCraft D/Cocos2dxHelper: isSupportLowLatency:false
+07-06 20:15:14.313 17292-17292/com.FDU308.FudanCraft D/Cocos2dxHelper: sampleRate: 48000, framesPerBuffer: 192
+07-06 20:15:14.314 17292-17292/com.FDU308.FudanCraft D/Java_org_cocos2dx_lib_Cocos2dxHelper.cpp: nativeSetAudioDeviceInfo: sampleRate: 48000, bufferSizeInFrames: 192
+07-06 20:15:14.341 17292-17292/com.FDU308.FudanCraft D/Cocos2dxActivity: model=MI 5s Plus
+07-06 20:15:14.341 17292-17292/com.FDU308.FudanCraft D/Cocos2dxActivity: product=natrium
+07-06 20:15:14.341 17292-17292/com.FDU308.FudanCraft D/Cocos2dxActivity: isEmulator=false
+07-06 20:15:14.345 17292-17292/com.FDU308.FudanCraft D/EngineDataManager.cpp: nativeSetSupportOptimization: 0
+07-06 20:15:14.346 17292-17292/com.FDU308.FudanCraft D/Cocos2dxActivity: onResume()
+07-06 20:15:14.358 17292-17292/com.FDU308.FudanCraft D/ActivityThreadInjector: clearCachedDrawables.
+07-06 20:15:14.400 17292-17317/com.FDU308.FudanCraft I/Adreno: QUALCOMM build                   : 9438ceb, I0ac3940325
+                                                               Build Date                       : 10/26/16
+                                                               OpenGL ES Shader Compiler Version: XE031.09.00.03
+                                                               Local Branch                     : 
+                                                               Remote Branch                    : 
+                                                               Remote Branch                    : 
+                                                               Reconstruct Branch               : 
+07-06 20:15:14.414 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: {
+                                                                             	gl.supports_OES_packed_depth_stencil: true
+                                                                             	gl.supports_vertex_array_object: true
+                                                                             	gl.supports_BGRA8888: false
+                                                                             	gl.supports_ATITC: true
+                                                                             	gl.supports_S3TC: false
+                                                                             	cocos2d.x.version: cocos2d-x-3.15.1
+                                                                             	gl.supports_discard_framebuffer: true
+                                                                             	cocos2d.x.compiled_with_profiler: false
+                                                                             	gl.supports_PVRTC: false
+                                                                             	cocos2d.x.build_type: DEBUG
+                                                                             	gl.renderer: Adreno (TM) 530
+                                                                             	gl.supports_OES_depth24: true
+                                                                             	gl.supports_ETC1: true
+                                                                             	gl.supports_OES_map_buffer: false
+                                                                             	cocos2d.x.compiled_with_gl_state_cache: true
+                                                                             	gl.version: OpenGL ES 3.2 V@145.0 (GIT@I0ac3940325)
+                                                                             	gl.supports_NPOT: true
+                                                                             	gl.max_texture_units: 96
+                                                                             	gl.vendor: Qualcomm
+                                                                             	gl.max_texture_size: 16384
+                                                                             }
+07-06 20:15:14.416 17292-17317/com.FDU308.FudanCraft D/EngineDataManager.cpp: setAnimationInterval by game: 0.0167
+07-06 20:15:14.416 17292-17317/com.FDU308.FudanCraft D/EngineDataManager.cpp: JNI setAnimationInterval: 0.016667
+07-06 20:15:14.430 17292-17292/com.FDU308.FudanCraft D/Cocos2dxActivity: onWindowFocusChanged() hasFocus=true
+07-06 20:15:14.454 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: create rendererRecreatedListener for GLProgramState
+07-06 20:15:14.455 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Initialize Begin
+07-06 20:15:14.455 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: fullPathForFilename: No file found at BackgroundPanel.png. Possible missing file.
+07-06 20:15:14.455 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Read First Resource at Root Directory Fail
+07-06 20:15:14.497 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: create rendererRecreatedListener for GLProgramState
+07-06 20:15:14.497 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Read First Resource Success
+07-06 20:15:14.497 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Set Position Success
+07-06 20:15:14.497 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Set Scale Success
+07-06 20:15:14.497 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Trying to Add Child
+07-06 20:15:14.497 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Add First Child Success
+07-06 20:15:14.502 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Create First Sprite Success
+07-06 20:15:14.512 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Read Many Resources Success
+07-06 20:15:14.512 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Trying to Preload Audio
+07-06 20:15:14.512 17292-17317/com.FDU308.FudanCraft D/cocos2d: android SDK version:23
+07-06 20:15:14.513 17292-17317/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-06 20:15:14.513 17292-17317/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-06 20:15:14.514 17292-17317/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-06 20:15:14.514 17292-17317/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-06 20:15:14.539 17292-17292/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-06 20:15:14.539 17292-17317/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-06 20:15:14.546 17292-17317/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-06 20:15:14.546 17292-17317/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-06 20:15:14.546 17292-17317/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-06 20:15:14.546 17292-17317/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-06 20:15:14.563 17292-17317/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-06 20:15:14.563 17292-17292/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-06 20:15:14.568 17292-17310/com.FDU308.FudanCraft E/WVMExtractor: Failed to open libwvm.so: dlopen failed: library "libwvm.so" not found
+07-06 20:15:14.568 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Initialize Success
+07-06 20:15:14.569 17292-17317/com.FDU308.FudanCraft D/EngineDataManager.cpp: setAnimationInterval by engine: 0.0167
+07-06 20:15:14.569 17292-17317/com.FDU308.FudanCraft D/EngineDataManager.cpp: JNI setAnimationInterval: 0.016667
+07-06 20:15:14.573 17292-17310/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-06 20:15:14.574 17292-17310/com.FDU308.FudanCraft W/linker: /system/lib/libffmpeg_avcodec.so: is missing DT_SONAME will use basename as a replacement: "libffmpeg_avcodec.so"
+07-06 20:15:14.575 17292-17310/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef2b7c00
+07-06 20:15:14.578 17292-17310/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-06 20:15:14.578 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-06 20:15:14.578 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef2b7c40
+07-06 20:15:14.578 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef2b7c40
+07-06 20:15:14.578 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-06 20:15:14.578 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-06 20:15:14.578 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-06 20:15:14.578 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.579 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-06 20:15:14.579 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.580 17292-17337/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-06 20:15:14.593 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-06 20:15:14.593 17292-17310/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-06 20:15:14.594 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: QuadCommand: resizing index size from [-1] to [2560]
+07-06 20:15:14.634 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: Data is not sufficient to validate AAC
+07-06 20:15:14.634 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: ValidateAACFile data not sufficient
+07-06 20:15:14.634 17292-17310/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-06 20:15:14.634 17292-17310/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef2b7c00
+07-06 20:15:14.637 17292-17310/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-06 20:15:14.637 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-06 20:15:14.637 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef2b7c40
+07-06 20:15:14.637 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef2b7c40
+07-06 20:15:14.637 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-06 20:15:14.637 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-06 20:15:14.637 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-06 20:15:14.637 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.638 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-06 20:15:14.638 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.639 17292-17344/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-06 20:15:14.642 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-06 20:15:14.642 17292-17310/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-06 20:15:14.662 17292-17310/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-06 20:15:14.662 17292-17310/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef2b7c00
+07-06 20:15:14.666 17292-17310/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-06 20:15:14.666 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-06 20:15:14.666 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef2b7c40
+07-06 20:15:14.666 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef2b7c40
+07-06 20:15:14.666 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-06 20:15:14.666 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-06 20:15:14.666 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-06 20:15:14.666 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.666 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-06 20:15:14.666 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.667 17292-17347/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-06 20:15:14.671 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-06 20:15:14.671 17292-17310/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-06 20:15:14.702 17292-17310/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-06 20:15:14.702 17292-17310/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef2b7c00
+07-06 20:15:14.705 17292-17310/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-06 20:15:14.705 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-06 20:15:14.705 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef2b7c40
+07-06 20:15:14.705 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef2b7c40
+07-06 20:15:14.705 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-06 20:15:14.705 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-06 20:15:14.705 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-06 20:15:14.705 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.705 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-06 20:15:14.705 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.706 17292-17350/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-06 20:15:14.709 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-06 20:15:14.709 17292-17310/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-06 20:15:14.726 17292-17310/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-06 20:15:14.726 17292-17310/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef2b7c00
+07-06 20:15:14.729 17292-17310/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-06 20:15:14.729 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-06 20:15:14.729 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef2b7c40
+07-06 20:15:14.729 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef2b7c40
+07-06 20:15:14.729 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-06 20:15:14.729 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-06 20:15:14.729 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-06 20:15:14.729 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.729 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-06 20:15:14.729 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.730 17292-17353/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-06 20:15:14.735 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-06 20:15:14.735 17292-17310/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-06 20:15:14.752 17292-17310/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-06 20:15:14.752 17292-17310/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef2b7c00
+07-06 20:15:14.754 17292-17310/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-06 20:15:14.754 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-06 20:15:14.754 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef2b7c40
+07-06 20:15:14.754 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef2b7c40
+07-06 20:15:14.754 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-06 20:15:14.754 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-06 20:15:14.754 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-06 20:15:14.754 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.755 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-06 20:15:14.755 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.756 17292-17356/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-06 20:15:14.759 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-06 20:15:14.759 17292-17310/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-06 20:15:14.774 17292-17310/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-06 20:15:14.774 17292-17310/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef2b7c00
+07-06 20:15:14.776 17292-17310/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-06 20:15:14.777 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-06 20:15:14.777 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef2b7c40
+07-06 20:15:14.777 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef2b7c40
+07-06 20:15:14.777 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-06 20:15:14.777 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-06 20:15:14.777 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-06 20:15:14.777 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.777 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-06 20:15:14.777 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.778 17292-17359/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-06 20:15:14.783 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-06 20:15:14.783 17292-17310/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-06 20:15:14.797 17292-17310/com.FDU308.FudanCraft I/QComExtractorFactory: Sniff: Set key to use qti parser
+07-06 20:15:14.797 17292-17310/com.FDU308.FudanCraft I/FFmpegExtractor: android-source:0xef2b7c00
+07-06 20:15:14.800 17292-17310/com.FDU308.FudanCraft D/FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-06 20:15:14.800 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: QTIParser is prefered
+07-06 20:15:14.800 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: setExtraFlags called with flags 0 for paser instance ef2b7c40
+07-06 20:15:14.800 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::create 0xef2b7c40
+07-06 20:15:14.800 17292-17310/com.FDU308.FudanCraft I/ExtendedExtractor: ExtendedExtractor::updateExtractor: Use default QTI parser 
+07-06 20:15:14.800 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource
+07-06 20:15:14.800 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
+07-06 20:15:14.800 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.800 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: Open or read fail on /data/mmosal_logmask.cfg. Possible permission denied issue. Looking for /data/misc/media/mmosal_logmask.cfg
+07-06 20:15:14.800 17292-17310/com.FDU308.FudanCraft E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/misc/media/mmosal_logmask.cfg , Mode 0
+07-06 20:15:14.801 17292-17365/com.FDU308.FudanCraft I/OMXClient: Using client-side OMX mux.
+07-06 20:15:14.805 17292-17310/com.FDU308.FudanCraft D/MMParserExtractor: Using default parser out buffer size  = 3000 
+07-06 20:15:14.805 17292-17310/com.FDU308.FudanCraft I/MMParserExtractor: MMParserSource::start Allocation buffer size for audio track= 3000 
+07-06 20:15:15.614 17292-17292/com.FDU308.FudanCraft V/BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@68feb1b
+07-06 20:15:16.655 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: server button pressed
+07-06 20:15:16.655 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Trying to Load InputPort.png
+                                                                             
+                                                                             
+                                                                             [ 07-06 20:15:16.656 17292:17317 E/         ]
+                                                                             scaleX = 0.940767
+07-06 20:15:16.657 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: fullPathForFilename: No file found at sans-serif. Possible missing file.
+07-06 20:15:16.657 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Warning! You can't change Android Hint fontName and fontSize
+07-06 20:15:16.657 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: [Edit text] content size = (80.000000, 60.000000)
+07-06 20:15:16.657 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: [Edit text] content size = (80.000000, 60.000000)
+07-06 20:15:16.657 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Successfully Load InputPort.png
+07-06 20:15:16.676 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: create rendererRecreatedListener for GLProgramState
+07-06 20:15:16.677 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: [Edit text] content size = (80.000000, 60.000000)
+07-06 20:15:17.652 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Trying to Start Server
+07-06 20:15:17.654 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: SocketServer Created!
+07-06 20:15:17.656 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: SocketClient Created!
+07-06 20:15:17.656 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: create server and client on 8008
+07-06 20:15:17.656 17292-17418/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: handle_connect() called
+07-06 20:15:17.774 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: create rendererRecreatedListener for GLProgramState
+07-06 20:15:18.604 17292-17418/com.FDU308.FudanCraft D/cocos2d-x debug info: SocketClient: handle_connect() no exception, data:  11PLAYER   10, header:   1, camp char:0
+07-06 20:15:18.990 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [5735] to [7648].
+07-06 20:15:19.005 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [7648] to [10198].
+07-06 20:15:19.024 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [10198] to [13598].
+07-06 20:15:19.167 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [5735] to [7648].
+07-06 20:15:19.236 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [5735] to [7648].
+07-06 20:15:19.250 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [7648] to [10198].
+07-06 20:15:19.269 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [10198] to [13598].
+07-06 20:15:19.295 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [13598] to [18132].
+07-06 20:15:19.334 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: create rendererRecreatedListener for GLProgramState
+07-06 20:15:19.334 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Trying to Init Player ID
+07-06 20:15:19.334 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Get Player ID: 1
+07-06 20:15:19.367 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: fullPathForFilename: No file found at Marker Felt. Possible missing file.
+07-06 20:15:19.370 17292-17317/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-06 20:15:19.370 17292-17317/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-06 20:15:19.371 17292-17317/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-06 20:15:19.371 17292-17317/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-06 20:15:19.392 17292-17292/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-06 20:15:19.392 17292-17317/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-06 20:15:19.398 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: if back ground music playing 1
+07-06 20:15:19.402 17292-17317/com.FDU308.FudanCraft W/AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by client; transfer 4, track 22050 Hz, output 48000 Hz
+07-06 20:15:19.407 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: start game
+07-06 20:15:19.519 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Sent Message Num: 8, Sent Message string length: 144
+07-06 20:15:19.520 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Received Message Num: 8, Received Message String Length: 144
+07-06 20:15:19.542 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:19.643 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:19.748 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:19.828 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:19.909 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:19.946 17292-17292/com.FDU308.FudanCraft E/Cocos2dxEditBoxHelper: remove EditBox
+07-06 20:15:19.991 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:20.073 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:20.154 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:20.236 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:20.317 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:20.399 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:20.480 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:20.561 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:20.643 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:20.726 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:20.807 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:20.888 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:20.969 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:21.051 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:21.133 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:21.215 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:21.298 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:21.379 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:21.460 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:21.546 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:21.629 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:21.711 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:21.727 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.744 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.759 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.776 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.792 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.792 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:21.809 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.825 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.841 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.858 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.874 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.875 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:21.891 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.907 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.923 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.940 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.956 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.956 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:21.973 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:21.989 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.005 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.038 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:22.071 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.088 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.104 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.120 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.121 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:22.137 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.153 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.170 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.186 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.203 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.203 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:22.219 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.235 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.285 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.285 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:22.334 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.367 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.367 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:22.383 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.400 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.416 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.432 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.449 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.449 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:22.465 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.498 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.531 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:22.564 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:22.613 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:22.646 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Ended Handler, Touch Size 1
+07-06 20:15:22.646 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Map Touch Grid Point: (70, 13)
+07-06 20:15:22.648 17292-17317/com.FDU308.FudanCraft W/AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by client; transfer 4, track 22050 Hz, output 48000 Hz
+07-06 20:15:22.712 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:22.794 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:22.875 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:22.957 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:23.038 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:23.118 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:23.201 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:23.206 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Ended Handler, Touch Size 1
+07-06 20:15:23.207 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Map Touch Grid Point: (69, 24)
+07-06 20:15:23.207 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit ID: 1, plan to move to:(69, 24)
+07-06 20:15:23.207 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit 1, start moving FP
+07-06 20:15:23.207 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit 1, Success FP, RFP: 0, Path Length: 1
+07-06 20:15:23.284 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Sent Message Num: 1, Sent Message string length: 16
+07-06 20:15:23.284 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Received Message Num: 1, Received Message String Length: 16
+07-06 20:15:23.284 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit ID: 1, update path and start moving
+07-06 20:15:23.284 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:23.365 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:23.446 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:23.527 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:23.608 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:23.690 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:23.771 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:23.854 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:23.936 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:24.017 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:24.100 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:24.181 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:24.263 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:24.327 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit ID: 1, fighter landing
+07-06 20:15:24.344 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:24.425 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:24.506 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:24.554 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Moved Handler, Touch Size 1
+07-06 20:15:24.554 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Ended Handler, Touch Size 1
+07-06 20:15:24.554 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Map Touch Grid Point: (61, 27)
+07-06 20:15:24.554 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit ID: 1, plan to move to:(61, 27)
+07-06 20:15:24.554 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit 1, start moving FP
+07-06 20:15:24.554 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit 1, Success FP, RFP: 0, Path Length: 1
+07-06 20:15:24.589 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Sent Message Num: 1, Sent Message string length: 16
+07-06 20:15:24.589 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Received Message Num: 1, Received Message String Length: 16
+07-06 20:15:24.589 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit ID: 1, update path and start moving
+07-06 20:15:24.589 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:24.670 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:24.752 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:24.833 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:24.914 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:24.996 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:25.078 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:25.162 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:25.242 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:25.325 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:25.408 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:25.491 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:25.572 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit ID: 1, fighter landing
+07-06 20:15:25.588 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:25.669 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:25.751 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:25.834 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:25.865 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Ended Handler, Touch Size 1
+07-06 20:15:25.865 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Map Touch Grid Point: (74, 30)
+07-06 20:15:25.865 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit ID: 1, plan to move to:(74, 30)
+07-06 20:15:25.865 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit 1, start moving FP
+07-06 20:15:25.865 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit 1, Success FP, RFP: 0, Path Length: 1
+07-06 20:15:25.916 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Sent Message Num: 1, Sent Message string length: 16
+07-06 20:15:25.916 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Received Message Num: 1, Received Message String Length: 16
+07-06 20:15:25.916 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit ID: 1, update path and start moving
+07-06 20:15:25.916 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:25.998 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:26.080 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:26.163 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:26.245 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:26.327 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:26.409 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:26.490 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:26.572 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:26.654 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:26.737 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:26.819 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:26.902 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:26.983 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:27.066 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:27.147 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:27.230 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:27.314 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:27.396 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:27.446 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit ID: 1, fighter landing
+07-06 20:15:27.478 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:27.574 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:27.639 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: BattleScene: Entering Multi-touch Ended Handler, Touch Size 1
+07-06 20:15:27.639 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Map Touch Grid Point: (82, 19)
+07-06 20:15:27.639 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit ID: 1, plan to move to:(82, 19)
+07-06 20:15:27.639 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit 1, start moving FP
+07-06 20:15:27.640 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Change Destination due to occupied: -> (78, 19)
+07-06 20:15:27.640 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit 1, Success FP, RFP: 0, Path Length: 1
+07-06 20:15:27.656 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Sent Message Num: 1, Sent Message string length: 16
+07-06 20:15:27.656 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Received Message Num: 1, Received Message String Length: 16
+07-06 20:15:27.656 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit ID: 1, update path and start moving
+07-06 20:15:27.657 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:27.737 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:27.818 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:27.900 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:27.983 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:28.066 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:28.148 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:28.230 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:28.312 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:28.394 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:28.476 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:28.558 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:28.641 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:28.723 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:28.812 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:28.894 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:28.977 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:29.008 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit ID: 1, fighter landing
+07-06 20:15:29.057 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:29.140 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:29.221 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:29.303 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:29.385 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:29.467 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:29.557 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:29.639 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:29.721 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:29.804 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:29.886 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:29.968 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:30.050 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:30.133 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: Unit: Trying to clear game message
+07-06 20:15:30.148 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Initialize Begin
+07-06 20:15:30.148 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: cocos2d: fullPathForFilename: No file found at BackgroundPanel.png. Possible missing file.
+07-06 20:15:30.148 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Read First Resource at Root Directory Fail
+07-06 20:15:30.148 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Read First Resource Success
+07-06 20:15:30.148 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Set Position Success
+07-06 20:15:30.148 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Set Scale Success
+07-06 20:15:30.148 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Trying to Add Child
+07-06 20:15:30.148 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Add First Child Success
+07-06 20:15:30.149 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Create First Sprite Success
+07-06 20:15:30.149 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Read Many Resources Success
+07-06 20:15:30.149 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: Trying to Preload Audio
+07-06 20:15:30.214 17292-17317/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-06 20:15:30.214 17292-17317/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-06 20:15:30.214 17292-17317/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-06 20:15:30.214 17292-17317/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-06 20:15:30.231 17292-17317/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-06 20:15:30.232 17292-17292/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-06 20:15:30.236 17292-17317/com.FDU308.FudanCraft D/cocos2d-x debug info: FudanCraft: HelloWorldScene Initialize Success
+07-06 20:15:30.781 17292-17317/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-06 20:15:30.781 17292-17317/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-06 20:15:30.781 17292-17317/com.FDU308.FudanCraft E/ExtMediaPlayer-JNI: env->IsInstanceOf fails
+07-06 20:15:30.781 17292-17317/com.FDU308.FudanCraft E/MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+07-06 20:15:30.802 17292-17317/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-06 20:15:30.802 17292-17292/com.FDU308.FudanCraft D/MediaPlayer: setSubtitleAnchor in MediaPlayer
+07-06 20:15:30.805 17292-17431/com.FDU308.FudanCraft A/libc: Invalid address 0xf3ce27f8 passed to free: value not allocated
+07-06 20:15:30.805 17292-17431/com.FDU308.FudanCraft A/libc: Fatal signal 6 (SIGABRT), code -6 in tid 17431 (GLThread 591)
