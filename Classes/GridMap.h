@@ -120,6 +120,9 @@ public:
 	 */
 	bool hasApproached(const cocos2d::Point& cur_fp, const GridPoint& dest_gp);
 	void setFogLayer(cocos2d::TMXLayer* _fog_layer);
+	const std::vector<std::vector<int>>& getFogMap();
+	const std::vector<std::vector<int>>& getUnitMap();
+	int getGridWidth();
 	void clearFog(const GridRect& grec);
 private:
 	bool initWithTiledMap(const cocos2d::TMXTiledMap* tiled_map);
