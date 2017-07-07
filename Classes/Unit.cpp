@@ -616,25 +616,21 @@ int UnitManager::genRandom(int start, int end)
 
 void UnitManager::updateUnitsState()
 {
-	//log("UnitManager: Trying to Call Protobuf");
-	if (msgs->game_message_size())
-	{
-		auto sent_msg_str = msgs->SerializeAsString();
-		//log("UnitManager: GameMessageSet to String Success, String Address: %u", &sent_msg_str);
-		socket_client->send_string(sent_msg_str);
-		//log("UnitManager: Send Message via SocketClient Success");
-		int sent_msg_num = msgs->game_message_size();
-		if (sent_msg_num)
-			log("Sent Message Num: %d, Sent Message string length: %d", sent_msg_num, sent_msg_str.length());
+	msgs->add_game_message()->genGameMessage(GameMessage::CmdCode::GameMessage_CmdCode_EMP, 0, 0, 0, 0, 0, {});
+	auto sent_msg_str = msgs->SerializeAsString();
+	//log("UnitManager: GameMessageSet to String Success, String Address: %u", &sent_msg_str);
+	socket_client->send_string(sent_msg_str);
+	//log("UnitManager: Send Message via SocketClient Success");
+	int sent_msg_num = msgs->game_message_size();
+	if (sent_msg_num)
+		log("Sent Message Num: %d, Sent Message string length: %d", sent_msg_num, sent_msg_str.length());
 
-		auto msg_str = socket_client->get_string();
-		//log("UnitManager: Receive Message from Socket Success, String Address: %u", &msg_str);
-		msgs->ParseFromString(msg_str);
-		int recv_msg_num = msgs->game_message_size();
-		if (recv_msg_num)
-			log("Received Message Num: %d, Received Message String Length: %d", recv_msg_num, msg_str.length());
-
-	}
+	auto msg_str = socket_client->get_string();
+	//log("UnitManager: Receive Message from Socket Success, String Address: %u", &msg_str);
+	msgs->ParseFromString(msg_str);
+	int recv_msg_num = msgs->game_message_size();
+	if (recv_msg_num)
+		log("Received Message Num: %d, Received Message String Length: %d", recv_msg_num, msg_str.length());
 	
 	for (int i = 0; i < msgs->game_message_size(); i++)
 	{
@@ -707,7 +703,7 @@ void UnitManager::updateUnitsState()
 	}
 	//delete msgs;
 	//msgs = new_msgs;
-	log("Unit: Trying to clear game message");
+	//log("Unit: Trying to clear game message");
 	msgs->clear_game_message();
 }
 

@@ -1,0 +1,56 @@
+obj/local/armeabi/objs/cocos2dx_internal_static/base/allocator/CCAllocatorGlobalNewDelete.o: \
+ F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorGlobalNewDelete.cpp \
+ F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorStrategyGlobalSmallBlock.h \
+ F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorMacros.h \
+ F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/ccConfig.h \
+ F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./platform/CCPlatformConfig.h \
+ F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./platform/CCPlatformMacros.h \
+ F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./platform/CCPlatformDefine.h \
+ F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./platform/android/CCPlatformDefine-android.h \
+ F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorBase.h \
+ G:/Android/ndk/android-ndk-r14b/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/string \
+ F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorGlobal.h \
+ F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorStrategyDefault.h \
+ F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorStrategyFixedBlock.h \
+ G:/Android/ndk/android-ndk-r14b/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/vector \
+ G:/Android/ndk/android-ndk-r14b/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/typeinfo \
+ G:/Android/ndk/android-ndk-r14b/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/sstream \
+ F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorMutex.h \
+ F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorDiagnostics.h \
+ G:/Android/ndk/android-ndk-r14b/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_set
+
+F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorStrategyGlobalSmallBlock.h:
+
+F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorMacros.h:
+
+F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/ccConfig.h:
+
+F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./platform/CCPlatformConfig.h:
+
+F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./platform/CCPlatformMacros.h:
+
+F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./platform/CCPlatformDefine.h:
+
+F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./platform/android/CCPlatformDefine-android.h:
+
+F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorBase.h:
+
+G:/Android/ndk/android-ndk-r14b/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/string:
+
+F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorGlobal.h:
+
+F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorStrategyDefault.h:
+
+F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorStrategyFixedBlock.h:
+
+G:/Android/ndk/android-ndk-r14b/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/vector:
+
+G:/Android/ndk/android-ndk-r14b/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/typeinfo:
+
+G:/Android/ndk/android-ndk-r14b/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/sstream:
+
+F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorMutex.h:
+
+F:/Programs/Cpp/Android/FudanCraft/cocos2d/cocos/./base/allocator/CCAllocatorDiagnostics.h:
+
+G:/Android/ndk/android-ndk-r14b/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_set:

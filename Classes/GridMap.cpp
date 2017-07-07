@@ -237,7 +237,7 @@ void GridMap::clearFog(const GridRect& grec)
 				auto fog_tile = fog_layer->getTileAt(Vec2(x, map_height - 1 - y));
 				if (fog_tile)
 					//fog_tile->setVisible(false);
-					fog_tile->runAction(FadeOut::create(0.5));
+					fog_tile->runAction(FadeOut::create(0.3));
 			}
 }
 

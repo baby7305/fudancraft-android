@@ -130,7 +130,7 @@ void SocketClient::handle_connect(const asio::error_code& error)
 			total_ = atoi(header);
 			//Modified by zlj_09, Jul. 6, 2017
 			//camp_ = atoi(data + 14);
-			camp_ = int(data[14] - '0') + 1;
+			camp_ = int(data[14] - '0');
 			start_flag_ = true;
 			
 			cocos2d::log("SocketClient: handle_connect() no exception, data:%s, header:%s, camp char:%c", data, header, data[14]);

@@ -196,7 +196,7 @@ void SocketServer::button_start()
 		//Modified by zlj_09, June 30, 2017
 		//Use sprintf() instead of to_string()
 		char i_chars[10];
-		sprintf(i_chars, "%d", i);
+		sprintf(i_chars, "%d", i + 1);
 		connections_[i]->write_data("PLAYER" + std::string(total) + std::string(i_chars));
 	}
 	connection_num_ = connections_.size();
