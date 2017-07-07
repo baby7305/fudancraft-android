@@ -8,6 +8,6 @@
 
 ![GL calls: 60.7 / 0.005 272232 13 s 18480 ](demo.png)
 
-# 缺陷
+# 改进
 
-* 网络模块SocketClient和SocketServer还不能正常工作
+* 网络模块已经修复，PC与Android跨平台联机测试通过
