@@ -286,9 +286,9 @@ bool BattleScene::init(SocketClient* _socket_client, SocketServer* _socket_serve
 	mini_map->setGridMap(grid_map);
 	mini_map->setUnitManager(unit_manager);
 	mini_map->setBattleScene(this);
-	mini_map->setPosition(50, 300);
+	mini_map->setPosition(50, visibleSize.height - 50 - 256);
 	mini_map->schedule(schedule_selector(MiniMap::update), 1);
-	mini_map_rect = Rect{ {50, 300}, {256, 256} };
+	mini_map_rect = Rect{ {50, visibleSize.height - 50 - 256}, {256, 256} };
 
 	start_flag = true;
 
@@ -411,7 +411,7 @@ bool BattleScene::onTouchBegan(cocos2d::Touch* pTouch, cocos2d::Event*)
 	mouse_rect->start = touch - battle_map->getPosition();
 	mouse_rect->touch_start = touch;
 	mouse_rect->touch_end = touch;
-	mouse_rect->schedule(schedule_selector(MouseRect::update));
+	//mouse_rect->schedule(schedule_selector(MouseRect::update));
 
 	return true;
 }
@@ -421,6 +421,7 @@ void BattleScene::onTouchMoved(cocos2d::Touch* pTouch, cocos2d::Event* pEvent)
 
 	Point touch = pTouch->getLocation();//杩斿洖鐐瑰嚮鐨勪綅缃?
 
+	mouse_rect->schedule(schedule_selector(MouseRect::update));
 	mouse_rect->touch_end = touch;
 	mouse_rect->clear();
 	mouse_rect->setVisible(true);
@@ -537,38 +538,38 @@ void BattleScene::onKeyPressed(EventKeyboard::KeyCode keycode, cocos2d::Event* p
 
 void BattleScene::onTouchesBegan(const std::vector<cocos2d::Touch*>& touches, cocos2d::Event *unused_event)
 {
+	log("BattleScene: Entering Multi-touch Began Handler, Touch Size %d", touches.size());
 	if (touches.size() == 1)
 	{
+		mouse_rect->reset();
 		onTouchBegan(touches[0], unused_event);
-	}
-	else
-	{
-		last_multi_touch = touches[0]->getLocation();
+		multi_touch = false;
 	}
 }
 
 void BattleScene::onTouchesMoved(const std::vector<cocos2d::Touch*>& touches, cocos2d::Event *unused_event)
 {
 	log("BattleScene: Entering Multi-touch Moved Handler, Touch Size %d", touches.size());
-	if (touches.size() == 1)
+	if (touches.size() == 1 && !multi_touch)
 	{
 		onTouchMoved(touches[0], unused_event);
 	}
 	else
 	{
-		auto multi_touch = touches[0]->getLocation();
-		auto move_vec = multi_touch - last_multi_touch;
+		multi_touch = true;
+		auto multi_touch_pos = touches[0]->getLocation();
+		auto move_vec = multi_touch_pos - last_multi_touch;
 		log("BattleScene: Trying to Move Map, move_vec = (%f, %f)", move_vec.x, move_vec.y);
 		if (move_vec.x < 40 && move_vec.x > -40 && move_vec.y < 40 && move_vec.y > -40)
 			moveMap(move_vec);
-		last_multi_touch = multi_touch;
+		last_multi_touch = multi_touch_pos;
 	}
 }
 
 void BattleScene::onTouchesEnded(const std::vector<cocos2d::Touch*>& touches, cocos2d::Event *unused_event)
 {
 	log("BattleScene: Entering Multi-touch Ended Handler, Touch Size %d", touches.size());
-	if (touches.size() == 1)
+	if (touches.size() == 1 && !multi_touch)
 	{
 		onTouchEnded(touches[0], unused_event);
 	}

@@ -106,6 +106,7 @@ private:
 
 	bool start_flag = false;
 	bool end_flag = false;
+	bool multi_touch = false;
 
 	cocos2d::TMXTiledMap* battle_map = nullptr;
 	cocos2d::TMXTiledMap* warfog_map = nullptr;
