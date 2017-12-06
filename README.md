@@ -8,13 +8,13 @@
 
 加入小地图显示和触控功能，测试效果如下：
 
-![demo_v0_1_0](demos\demo_v0_1_0.png)
+![demo_v0_1_0](demos/demo_v0_1_0.png)
 
 ## v0.0.1
 
 在Android 6.0.1，MIUI 8.5.2.0环境下测试通过，效果如下：
 
-![demo_v0_0_1](demos\demo_v0_0_1.png)
+![demo_v0_0_1](demos/demo_v0_0_1.png)
 
 # 改进
 
